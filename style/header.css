@@ -1,0 +1,14 @@
+.main-navbar {
+    position: fixed;
+    z-index: 20;
+    left: 0;
+    top: 0;
+    right: 0;
+    background: #dfe6eb;
+    border-bottom: 1px solid #dfe6eb;
+}
+
+.logo-navbar{
+    width: 122px;
+    height: 64px;
+}

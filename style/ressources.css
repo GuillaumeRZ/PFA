@@ -1,3 +1,5 @@
+/* BUTTON STYLE */
+
 .button {
     margin: 0;
     padding: .4375em 1.5em .5625em;
@@ -39,17 +41,79 @@
 }
 
 .button-secondary {
-    background-color: #ff3268;
-    box-shadow: inset 0 -.1875em .0625em #ca2b55;
+    background-color: #00d66c;
+    box-shadow: inset 0 -.1875em .0625em #1e9162;
     color: #FFF;
 }
 
 .button-secondary:hover {
-    background-color: #ff658e;
+    background-color: #4de298;
 }
 
 .button-secondary:active {
-    background-color: #ff2e62;
-    box-shadow: inset 0 .125em .0625em #ca2b55;
+    background-color: #00c061;
+    box-shadow: inset 0 .1875em .0625em #1e9162;
     top: .125rem;
+}
+
+
+/* CONNEXION SOCIAL LOGIN */
+
+.social-login {
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    float: left;
+    padding-left: 50px;
+    position: relative;
+    overflow: hidden;
+    font-weight: 600!important;
+    margin-bottom: 10px;
+}
+
+.social-login:before {
+    line-height: 50px;
+    font-size: 24px;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 52px;
+    height: 50px;
+    background: rgba(0, 0, 0, .1);
+}
+
+.login-facebook {
+    background: #3b5998;
+    position: relative;
+    border-radius: 3px;
+    border: 2px solid #385591;
+}
+
+.login-facebook:before {
+    font-family: FontAwesome;
+    content: '\f09a';
+}
+
+.login-twitter {
+    background: #56bdf2;
+    position: relative;
+    border-radius: 3px;
+    border: 2px solid #4db9f1;
+}
+
+.login-twitter:before {
+    font-family: FontAwesome;
+    content: '\f099';
+}
+
+.login-mail {
+    background: #7ec23c;
+    position: relative;
+    border-radius: 3px;
+    border: 2px solid #79ba3a;
+}
+
+.login-mail:before {
+    font-family: FontAwesome;
+    content: '\f003';
 }

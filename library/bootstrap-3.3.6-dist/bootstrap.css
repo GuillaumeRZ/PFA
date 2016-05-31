@@ -6144,6 +6144,7 @@ a.thumbnail:hover {
 }
 
 .progress {
+    position: relative;
     height: 20px;
     margin-bottom: 20px;
     overflow: hidden;

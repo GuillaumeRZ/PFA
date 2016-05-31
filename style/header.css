@@ -1,17 +1,17 @@
 .main-navbar {
     position: fixed;
-    height: 83px;
+    height: 80px;
     z-index: 20;
     left: 0;
     top: 0;
     right: 0;
-    background: #dfe6eb;
-    border-bottom: 1px solid #dfe6eb;
+    background: #fff;
+    box-shadow: 1px 1px 12px #5A5A5A;
 }
 
 .container-navbar {
     position: relative;
-    height: 83px;
+    height: 80px;
     margin: 0 auto;
     padding: 0 15px;
     max-width: 1100px;
@@ -19,6 +19,7 @@
 
 .left-navbar {
     display: inline-block;
+    margin-left: 190px;
 }
 
 .left-navbar .principal-menu {
@@ -26,15 +27,16 @@
     vertical-align: middle;
     height: 80px;
     font-weight: 600;
-    color: #687076;
+    color: #53595d;
     text-decoration: none;
     padding: 0 8px;
     margin-right: 6px;
+    font-size: 16px;
 }
 
 .left-navbar .principal-menu:hover {
-    color: #53595d;
-    border-bottom: solid 4px #b7bfc4;
+    color: #45484a;
+    border-bottom: solid 4px #5A5A5A;
 }
 
 .principal-menu-selected {
@@ -47,6 +49,8 @@
 }
 
 .logo-navbar {
+    position: absolute;
+    display: inline-block;
     width: 190px;
     height: 80px;
 }

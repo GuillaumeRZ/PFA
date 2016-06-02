@@ -10,7 +10,10 @@
     <link rel="stylesheet" href="style/ressources.css">
     <link rel="stylesheet" href="style/addproject.css">
     <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/projets.css">
+    <link rel="stylesheet" href="library/sweetalert.css">
     <script src="library/jquery-1.12.4.min.js"></script>
+    <script src="library/sweetalert.min.js"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="library/bootstrap-3.3.6-dist/bootstrap.css">
     <!-- Latest compiled and minified JavaScript -->
@@ -20,11 +23,11 @@
 <body>
     <div class="main-navbar">
         <div class="container-navbar">
-           <img class="logo-navbar" src="#" alt="Logo Jump'in"/>
+            <img class="logo-navbar" src="#" alt="Logo Jump'in" />
             <div class="left-navbar">
                 <a href="index.php" class="principal-menu"><i class="fa fa-home fa-fw" aria-hidden="true"></i>Accueil</a>
                 <a href="projets.php" class="principal-menu"><i class="fa fa-bullhorn" aria-hidden="true"></i>Les projets</a>
-<!--                <a href="about.php" class="principal-menu"><i class="fa fa-info-circle" aria-hidden="true"></i>A propos</a>-->
+                <!--                <a href="about.php" class="principal-menu"><i class="fa fa-info-circle" aria-hidden="true"></i>A propos</a>-->
             </div>
 
             <div class="menu-navbar">
@@ -51,14 +54,16 @@
                     <p>Connexion avec votre adresse mail</p>
                     <form>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="email" name="email" placeholder="Email">
+                            <input type="text" class="form-control" id="email" name="email" placeholder="Adresse e-mail">
                         </div>
                         <div class="form-group">
                             <input type="password" class="form-control" id="password" name="password" placeholder="Mot de passe">
                         </div>
-                        <a>Mot de passe oublié ?</a>
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Annuler</button>
-                        <input class="btn btn-primary" name="submit" type="submit" value="Se connecter" />
+                        <div class="mdpforget">
+                            <a>Mot de passe oublié ?<br></a>
+                        </div>
+                        <button type="button" class="button button-thirdary" data-dismiss="modal">Annuler</button>
+                        <input class="button button-primary" name="submit" type="submit" value="Se connecter" />
                     </form>
                 </div>
             </div>
@@ -83,13 +88,13 @@
                             <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Nom">
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="email" name="email" placeholder="Email">
+                            <input type="text" class="form-control" id="email" name="email" placeholder="Adresse e-mail">
                         </div>
                         <div class="form-group">
                             <input type="password" class="form-control" id="password" name="password" placeholder="Mot de passe">
                         </div>
-                        <button type="button" class="btn btn-default" data-dismiss="modal" data-toggle="modal" data-target="#connexionPopup">Annuler</button>
-                        <input class="btn btn-primary" type="submit" name="submit" value="S'inscrire" />
+                        <button type="button" class="button button-thirdary" data-dismiss="modal" data-toggle="modal" data-target="#connexionPopup">Annuler</button>
+                        <input class="button button-primary" name="submit" type="submit" value="S'inscrire" />
                     </form>
                 </div>
             </div>

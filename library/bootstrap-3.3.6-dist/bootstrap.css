@@ -1610,7 +1610,9 @@ h3 {
 
 .h4,
 h4 {
-    font-size: 18px
+    font-size: 18px;
+    text-align: center;
+    color: #53595D;
 }
 
 .h5,
@@ -1624,7 +1626,9 @@ h6 {
 }
 
 p {
-    margin: 0 0 10px
+    margin: 0 0 10px;
+    text-align: center;
+    color: #53595D;
 }
 
 .lead {
@@ -3238,7 +3242,7 @@ input[type=search] {
 .checkbox,
 .radio {
     position: relative;
-    display: block;
+    /*    display: block;*/
     margin-top: 10px;
     margin-bottom: 10px
 }
@@ -7115,8 +7119,11 @@ button.close {
 }
 
 .modal-title {
+    /*
     margin: 0;
     line-height: 1.42857143
+*/
+    color: #333;
 }
 
 .modal-body {

@@ -1,6 +1,3 @@
-var loginButton = document.getElementById("login");
-loginButton.addEventListener("click", loginPopup);
-
-function loginPopup() {
-
-};
+$(".connexion").click(function () {
+    document.location.href = "header-profil.php"
+});

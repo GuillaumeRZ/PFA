@@ -1,10 +1,43 @@
-.footer{
+.footer {
     position: relative;
-    height: 40px;
     z-index: 20;
     left: 0;
     bottom: 0;
     right: 0;
     background: #fff;
     box-shadow: 1px 1px 12px #5A5A5A;
+}
+
+.left-footer {
+    display: inline-block;
+    margin-left: 20%;
+}
+
+.left-footer p,
+.right-footer p {
+    display: inline-block;
+    margin: 0;
+    font-size: 1.1em;
+    vertical-align: middle;
+}
+
+.left-footer img {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    display: inline-block;
+    width: 140px;
+    height: 50px;
+}
+
+.right-footer {
+    display: inline-block;
+    margin-right: 20%;
+}
+
+.right-footer img {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin-left: 16px;
 }

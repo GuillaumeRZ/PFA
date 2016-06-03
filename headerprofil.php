@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="library/bootstrap-3.3.6-dist/bootstrap.css">
     <!-- Latest compiled and minified JavaScript -->
     <script src="library/bootstrap-3.3.6-dist/bootstrap.js"></script>
-    
+
     <link rel="stylesheet" href="library/font-awesome.min.css">
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/footer.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="style/index.css">
     <link rel="stylesheet" href="style/projets.css">
     <link rel="stylesheet" href="style/profil.css">
+    <link rel="stylesheet" href="style/singleprojet.css">
     <link rel="stylesheet" href="library/sweetalert.css">
     <script src="library/jquery-1.12.4.min.js"></script>
     <script src="library/sweetalert.min.js"></script>
@@ -37,7 +38,7 @@
             <div class="menu-navbar">
                 <div class="align-menu-navbar">
                     <button onclick="document.location.href='/PFA/addproject.php'" class="button button-secondary">Soumettre mon projet</button>
-                    <button type="button" class="button button-thirdary">Mon profil</button>
+                    <button onclick="document.location.href='/PFA/profil.php'" type="button" class="button button-thirdary">Mon profil</button>
                 </div>
             </div>
         </div>

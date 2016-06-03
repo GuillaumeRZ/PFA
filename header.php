@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="style/addproject.css">
     <link rel="stylesheet" href="style/index.css">
     <link rel="stylesheet" href="style/projets.css">
+    <link rel="stylesheet" href="style/singleprojet.css">
     <link rel="stylesheet" href="library/sweetalert.css">
     <script src="library/jquery-1.12.4.min.js"></script>
     <script src="library/sweetalert.min.js"></script>
@@ -22,7 +23,9 @@
 </head>
 
 <body>
+    <!--
    <div class="nuage"></div>
+-->
     <div class="main-navbar">
         <div class="container-navbar">
             <img class="logo-navbar" src="#" alt="Logo Jump'in" />

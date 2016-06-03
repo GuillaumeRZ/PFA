@@ -1,0 +1,79 @@
+.index {
+    width: inherit;
+    margin-top: 80px;
+    background: -webkit-linear-gradient(90deg, #acdefc 27%, #5AB4E8 100%);
+    background: -moz-linear-gradient(90deg, #acdefc 30%, #5AB4E8 100%);
+}
+
+.title {
+    padding-top: 2em;
+    margin-bottom: 2em;
+}
+
+.websitetitle {
+    text-align: center;
+    margin: 0;
+    font-weight: 700;
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #fff;
+    text-shadow: 0 2px 0 #5AB4E8;
+}
+
+.videopresentation {
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.btnindex {
+    display: block;
+    margin: auto;
+    margin-top: 1em;
+    font-size: 1.2em;
+    width: 275px;
+    text-decoration: none;
+}
+
+.btnindex:hover,
+.btnindex:active,
+.btnindex:focus {
+    color: #fff;
+}
+
+#LesProjets {
+    display: block;
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 7em;
+    padding-bottom: 5em;
+}
+
+.index-projet {
+    text-align: center;
+    display: inline-block;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+    width: 27%;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-bottom: 32px;
+    color: #53595d;
+    box-shadow: 1px 1px 12px #5A5A5A;
+}
+
+.index-projet h3 {
+    margin: 0;
+    margin-bottom: 16px;
+    color: #53595d;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.index-projet img {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 16px;
+}

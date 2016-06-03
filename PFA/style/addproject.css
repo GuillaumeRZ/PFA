@@ -1,0 +1,324 @@
+.addprojet {
+    padding-top: 80px;
+    padding-bottom: 300px;
+    height: inherit;
+    background: -webkit-linear-gradient(90deg, #acdefc 27%, #5AB4E8 100%);
+    background: -moz-linear-gradient(90deg, #acdefc 30%, #5AB4E8 100%);
+}
+
+
+/* AddServer FormStyles */
+
+#addServerForm {
+    color: #666;
+    width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    position: relative;
+    font-size: 1em;
+}
+
+#addServerForm fieldset {
+    background: #fff;
+    border: 0 none;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 120%;
+    margin: 0 -10%;
+    /*stacking fieldsets above each other*/
+    position: relative;
+}
+
+
+/*Hide all except first fieldset*/
+
+#addServerForm fieldset:not(:first-of-type) {
+    display: none;
+}
+
+
+/* AddServer Inputs */
+
+#addServerForm .fullInput {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 8px;
+    /*box-sizing: border-box; */
+    outline: none;
+    border-radius: 0.3125em;
+    border: 1px solid #D0D1D5;
+    border-color: #D0D2D6;
+    text-align: left;
+    background-color: #fff;
+    font-size: 1em;
+}
+
+#addServerForm #serverDescription,
+#addServerForm #serverDescription2,
+#addServerForm #serverDescription3 {
+    padding: 10px;
+    width: 80%;
+    /*box-sizing: border-box; */
+    outline: none;
+    border-radius: 0.3125em;
+    border: 1px solid #D0D1D5;
+    border-color: #D0D2D6;
+    text-align: left;
+    background-color: #fff;
+}
+
+
+/* AddServer Buttons */
+
+#addServerForm .action-button {
+    border: none;
+    height: 40px;
+    width: 180px;
+    cursor: pointer;
+    margin: 10px 5px;
+    display: inline-block;
+    padding: 7px 15px 5px;
+    background-color: #01bc5f;
+    border-radius: 5px;
+    01bc5f border-bottom: 1px solid #48a554;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: .8em;
+}
+
+#addServerForm .action-button:hover,
+#addServerForm .action-button:focus {
+    background: #65b46f;
+    border-bottom: 1px solid #4b8b53;
+}
+
+
+/*headings*/
+
+.fs-title {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: #555;
+    margin-bottom: 1.5em;
+}
+
+.fs-subtitle2 {
+    font-weight: normal;
+    font-size: 0.7em;
+    color: #666;
+    margin-bottom: 1.5em;
+    margin-top: 0;
+    font-style: italic;
+}
+
+.fs-subtitle {
+    font-weight: normal;
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 0;
+    text-align: left;
+    width: 20%;
+}
+
+
+/*progressbar*/
+
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    padding: 0;
+    /*CSS counters to number the steps*/
+    counter-reset: step;
+}
+
+#progressbar li {
+    list-style-type: none;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 11px;
+    width: 25%;
+    float: left;
+    position: relative;
+}
+
+#progressbar li:before {
+    content: counter(step);
+    counter-increment: step;
+    width: 20px;
+    line-height: 20px;
+    display: block;
+    font-size: 10px;
+    color: #333;
+    background: white;
+    border-radius: 3px;
+    margin: 0 auto 5px auto;
+}
+
+
+/*progressbar connectors*/
+
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: white;
+    position: absolute;
+    left: -50%;
+    top: 9px;
+    z-index: -1;
+    /*put it behind the numbers*/
+}
+
+#progressbar li:first-child:after {
+    /*connector not needed before the first step*/
+    content: none;
+}
+
+
+/*marking active/completed steps green*/
+
+
+/*The number of the step and the connector before it = green*/
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+    background: #01bc5f;
+    color: white;
+}
+
+.hideInput {
+    position: absolute;
+    left: -9999px;
+}
+
+.slider-v3 {
+    position: relative;
+    display: block;
+    width: 4em;
+    height: 2em;
+    cursor: pointer;
+    border-radius: 1.5em;
+    -webkit-transition: 350ms;
+    transition: 350ms;
+    background: #e3e3e3;
+    margin: auto;
+    margin-top: 1em;
+}
+
+.slider-v3::after {
+    position: absolute;
+    content: '';
+    width: 1.3em;
+    height: 1.3em;
+    top: 0.35em;
+    left: 0.35em;
+    border-radius: 1.5em;
+    -webkit-transition: width 200ms ease-out, height 300ms 50ms ease-in, top 300ms 50ms ease-in, left 250ms 50ms ease-in, background 300ms ease-in, box-shadow 300ms ease-in;
+    transition: width 200ms ease-out, height 300ms 50ms ease-in, top 300ms 50ms ease-in, left 250ms 50ms ease-in, background 300ms ease-in, box-shadow 300ms ease-in;
+    background: #f2f2f2;
+    box-shadow: 0 0 0 1.5em #ffffff inset;
+}
+
+input:checked + .slider-v3::after {
+    width: 2.5em;
+    height: 2em;
+    top: 0;
+    left: 1.5em;
+    background: #01bc5f;
+    box-shadow: 0 0 0 0 #ffffff inset;
+}
+
+#labelAddServer {
+    font-size: 0.9em;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.wrap {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+fieldset p {
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+#advice {
+    margin: 0;
+    margin-bottom: 1.5em;
+    font-style: italic;
+}
+
+
+/* INPUT BUTTON */
+
+.checkbox {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding: 0 !important;
+    border: 1px solid #bdbfc3;
+    border-radius: 0.3125em;
+    background-color: #f6f7fa;
+    box-shadow: inset 0px 1px 0 0 #EAEBEE;
+}
+
+.checkbox--native {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    vertical-align: middle;
+    margin-right: 7px;
+    cursor: pointer;
+}
+
+.checkbox:checked:before,
+.checkbox.checked:before {
+    content: "";
+    display: block;
+    width: 18px;
+    height: 18px;
+    margin-bottom: -19px;
+    background: url("https://assets.captaintrain.com/assets/images/tick-white-401959dd38bf1e64fb87a48600c0ea41.svg") no-repeat center center;
+    background-size: 90%;
+}
+
+.checkbox:checked,
+.checkbox.checked {
+    border-color: #01bc5f;
+    background-color: #01bc5f;
+    box-shadow: none;
+}
+
+#inputBlock {
+    margin-bottom: 0.3em;
+}
+
+.privacy:before {
+    content: ' ';
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    background: #D9D9DC url("https://assets.captaintrain.com/assets/images/home/lock-b2ab409073db0d4fe0c2f037e34b3700.svg") center center no-repeat;
+    margin-right: 10px;
+    margin-top: 2px;
+    display: block;
+    float: left;
+}
+
+#privacyDiv {
+    text-align: left;
+    display: block;
+    margin: auto;
+    width: 260px;
+}
+
+.wronginput {
+    border: 2px red;
+}

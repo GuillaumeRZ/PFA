@@ -1,0 +1,59 @@
+.projets {
+    padding-top: 80px;
+    background: -webkit-linear-gradient(90deg, #acdefc 27%, #5AB4E8 100%);
+    background: -moz-linear-gradient(90deg, #acdefc 30%, #5AB4E8 100%);
+}
+
+.recherche {
+    color: #666;
+    margin: 50px auto;
+    text-align: center;
+    position: relative;
+    font-size: 1em;
+}
+
+.projets input {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 8px;
+    /* box-sizing: border-box; */
+    outline: none;
+    border-radius: 0.3125em;
+    border: 1px solid #D0D1D5;
+    border-color: #D0D2D6;
+    text-align: left;
+    background-color: #fff;
+    font-size: 1em;
+}
+
+.projets select {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 8px;
+    /* box-sizing: border-box; */
+    outline: none;
+    border-radius: 0.3125em;
+    border: 1px solid #D0D1D5;
+    border-color: #D0D2D6;
+    text-align: left;
+    background-color: #fff;
+    font-size: 1em;
+    height: 42px;
+}
+
+.left-recherche {
+    display: inline-block;
+    width: 400px;
+}
+
+.right-recherche {
+    display: inline-block;
+    width: 400px;
+}
+
+#LesProjets h2{
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 1.5em;
+}

@@ -6,7 +6,7 @@
                 <img src="images/profil/profil.jpg" alt="Illustration profil">
                 <p class="titre-profil">Jérémy Guerrier</p>
                 <a href="projets.php">
-                    <p class="credit-profil">46 Jump' à dépenser (1 Jumps = 1€)</p>
+                    <p class="credit-profil">46 Jump' à dépenser (1 Jump' = 1€)</p>
                 </a>
                 <button onclick="document.location.href='/PFA/profil.php'" class="button button-secondary">Exclusivités</button>
                 <button onclick="document.location.href='/PFA/profilSuivis.php'" class="button button-thirdary">Projet suivis</button>

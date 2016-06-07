@@ -34,7 +34,7 @@ $(".partager").click(function (e) {
     e.preventDefault();
     swal({
         title: "Partagez ce projet !",
-        text: "Inscrivez le mail de la personne que ce projet intêresserait, vous gagnerez 50 Jumps !",
+        text: "Inscrivez le mail de la personne que ce projet intêresserait, vous gagnerez 50 Jumps ! (= 50€)",
         type: "input",
         imageUrl: "/PFA/images/share.png",
         html: true,
@@ -49,7 +49,7 @@ $(".partager").click(function (e) {
             swal.showInputError("Inscrivez-un mail valide !");
             return false
         }
-        swal("Nous l'avons contacté !", "Merci pour cette relation, nous avons crédité votre compte de 50 Jumps !", "success");
+        swal("Nous l'avons contacté !", "Merci pour cette relation, nous avons crédité votre compte de 50 Jumps ! (50€)", "success");
     });
 });
 
@@ -57,7 +57,7 @@ $(".soutenir").click(function (e) {
     e.preventDefault();
     swal({
         title: "Jumper ce projet !",
-        text: "Combien de Jump' souhaitez-vous attribuer au projet ?<br> <i>Vous en possêdez actuellement <b>86</b></i>",
+        text: "Combien de Jump' souhaitez-vous attribuer au projet ?<br> <i>Vous en possêdez actuellement <b>86</b> (= 86€)</i>",
         type: "input",
         imageUrl: "/PFA/images/jumper.png",
         html: true,

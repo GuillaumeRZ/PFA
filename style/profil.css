@@ -1,66 +1,101 @@
 .profil {
     padding-top: 80px;
+    padding-bottom: 40px;
     background: -webkit-linear-gradient(90deg, #acdefc 27%, #5AB4E8 100%);
     background: -moz-linear-gradient(90deg, #acdefc 30%, #5AB4E8 100%);
 }
 
-.profil-box {
-    background: #fff;
-    width: 80%;
+.titre-profil {
     margin: auto;
-    border-radius: 10px;
-    margin-top: 40px;
-    box-shadow: 1px 1px 12px #5A5A5A;
-}
-
-.header-profil-box {
-    margin: auto;
-    padding-top: 40px;
-    padding-bottom: 70px;
-    width: 90%;
-    border-bottom: solid 1px red;
-}
-
-.info-profil{
-    width: 60%;
-}
-
-.img-profil {
-    display: inline-block;
-    width: 150px;
-    height: 150px;
-}
-
-.name-profil {
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 8px;
-    font-size: 1.3em;
+    margin-left: 36px;
+    padding-top: 36px;
+    font-size: 2em;
     font-weight: 600;
 }
 
-.credit-profil {
-    display: inline-block;
-    margin-top: 3px;
-    vertical-align: top;
+.profilview {
+    width: 80%;
+    background: #fff;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
 }
 
-.spend-credit-profil {
+.credit-profil{
+    color: #5ab4e8;
+    font-size: 1.2em;
+}
+
+.profilview button{
+    margin-top: 2em;
+}
+
+.profilview ul {
+    padding: 0;
+    padding-top: 2em;
+    margin: auto;
+}
+
+.profilview li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.profilview img {
+    float: left;
+    width: 25%;
+    border-radius: 10px;
+    margin: 35px 0 0 35px;
+}
+
+.excluvideo{
+    border-radius: 10px;
+    width: 800px;
+    height: 450px;
+    margin-bottom: 2em;
+}
+
+.exclusivite {
+    margin: auto;
+    width: 80%;
+    margin-top: 88px;
+}
+
+.title-exclusivite {
+    margin-top: 2em;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.title-advice{
     font-style: italic;
-    margin-top: 3px;
-    vertical-align: top;
-}
-
-.profil ul{
-    display: inline-block;
+    font-size: 1.3em;
+    margin: 0;
     padding: 0;
 }
 
-.profil li{
-    display: inline-block;
+.projet-suivis{
+    margin-top: 16px;
+    height: 220px;
 }
 
-.menu-profil{
-    display: inline-block;
-    width: 60%;
+.projet-suivis img{
+    float: none;
+    margin: 0;
+    margin-right: 16px;
+    width: 200px;
+    height: 120px;
+}
+
+.projet-suivis a{
+    font-size: 3em;
+}
+
+.projet-suivis-title{
+    display: inline-block
+    width: 400px;
 }

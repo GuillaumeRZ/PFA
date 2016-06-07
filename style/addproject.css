@@ -300,6 +300,11 @@ fieldset p {
     margin-bottom: 0.3em;
 }
 
+.inputSeparation{
+    margin-bottom: 1em !important;
+}
+
+
 .privacy:before {
     content: ' ';
     width: 28px;
@@ -321,4 +326,8 @@ fieldset p {
 
 .wronginput {
     border: 2px red;
+}
+
+.exclusivite-single button{
+    margin-bottom: 2em;
 }

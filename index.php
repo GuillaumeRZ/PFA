@@ -6,7 +6,7 @@
             <h2 class="websitetitle">Gratuitement.</h2>
         </div>
 
-        <iframe class="videopresentation" width="560" height="315" src="https://www.youtube.com/embed/SYM-RJwSGQ8?list=RDY7OCgi7rANc" frameborder="0" allowfullscreen></iframe>
+        <iframe class="videopresentation" width="560" height="315" src="https://www.youtube.com/embed/gv2gPpXODOo" frameborder="0" allowfullscreen></iframe>
 
         <a id="indexbtn" href="#LesProjets" type="button" class="button button-primary btnindex"><i class="fa fa-arrow-down" aria-hidden="true"></i> Découvrir des projets ! <i class="fa fa-arrow-down" aria-hidden="true"></i>
         </a>
@@ -22,7 +22,7 @@
                     <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">3420 Jump'</div>
                 </div>
                 <button onclick="document.location.href='/PFA/singleprojet.php'" class="button button-thirdary">Découvrir</button>
-                <button  data-toggle="modal" data-target="#connexionPopup" class="button button-secondary">Jumper le projet</button>
+                <button data-toggle="modal" data-target="#connexionPopup" class="button button-secondary">Jumper le projet</button>
             </div>
             <div class="index-projet">
                 <h3>Adn & Vous</h3>
@@ -32,7 +32,7 @@
                     <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">6541 Jump'</div>
                 </div>
                 <button onclick="document.location.href='/PFA/singleprojet.php'" class="button button-thirdary">Découvrir</button>
-                <button  data-toggle="modal" data-target="#connexionPopup" class="button button-secondary">Jumper le projet</button>
+                <button data-toggle="modal" data-target="#connexionPopup" class="button button-secondary">Jumper le projet</button>
             </div>
             <div class="index-projet">
                 <h3>Uniterres</h3>
@@ -42,7 +42,7 @@
                     <div class="progress-bar" role="progressbar" aria-valuenow="54" aria-valuemin="0" aria-valuemax="100" style="width:54%">4874 Jump'</div>
                 </div>
                 <button onclick="document.location.href='/PFA/singleprojet.php'" class="button button-thirdary">Découvrir</button>
-                <button  data-toggle="modal" data-target="#connexionPopup" class="button button-secondary">Jumper le projet</button>
+                <button data-toggle="modal" data-target="#connexionPopup" class="button button-secondary">Jumper le projet</button>
             </div>
         </div>
     </div>

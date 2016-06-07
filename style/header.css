@@ -53,6 +53,7 @@
     display: inline-block;
     width: 190px;
     height: 80px;
+    padding-right: 16px;
 }
 
 .menu-navbar {

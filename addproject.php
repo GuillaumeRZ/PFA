@@ -1,72 +1,6 @@
 <?php include('header.php'); ?>
 
     <div class="addprojet">
-        <!--
-           <p id="inputBlock">
-                    <input id="Animaux" value="Semi-RP" name="serverGamemode" class="checkbox checkbox--native" type="checkbox"></input>
-                    <label for="Animaux" class="fs-subtitle">Semi-RP</label>
-                </p>
-                <p id="inputBlock">
-                    <input id="Sport" value="Sport" name="serverGamemode" class="checkbox checkbox--native" type="checkbox"></input>
-                    <label for="Sport" class="fs-subtitle">Sport</label>
-                </p>
-                <p id="inputBlock">
-                    <input id="Médical" value="Médical" name="serverGamemode" class="checkbox checkbox--native" type="checkbox"></input>
-                    <label for="Médical" class="fs-subtitle">Médical</label>
-                </p>
-                <p id="inputBlock">
-                    <input id="Technologies" value="Technologies" name="serverGamemode" class="checkbox checkbox--native" type="checkbox"></input>
-                    <label for="Technologies" class="fs-subtitle">Technologies</label>
-                </p>
-                <p id="inputBlock">
-                    <input id="Voyage" value="Mini-Jeux" name="serverGamemode" class="checkbox checkbox--native" type="checkbox"></input>
-                    <label for="Voyage" class="fs-subtitle">Mini-Jeux</label>
-                </p>
-                <p id="inputBlock">
-                    <input id="Environnement" value="Environnement" name="serverGamemode" class="checkbox checkbox--native" type="checkbox"></input>
-                    <label for="Environnement" class="fs-subtitle">Environnement</label>
-                </p>
-                <p id="inputBlock">
-                    <input id="Artisanat" value="Artisanat" name="serverGamemode" class="checkbox checkbox--native" type="checkbox"></input>
-                    <label for="Artisanat" class="fs-subtitle">Artisanat</label>
-                </p>
-                <p id="inputBlock">
-                    <input id="roleplay" value="Rôle-Play" name="serverGamemode" class="checkbox checkbox--native" type="checkbox"></input>
-                    <label for="roleplay" class="fs-subtitle">Rôle-Play</label>
-                </p>
-
-                <div class="wrap">
-                    <label id="labelAddServer" for="serverVersion">Le serveur accepte t'il les versions crackés ?</label>
-                    <input type="checkbox" class="hideInput" id="serverVersion" name="serverVersion" value="crackée" />
-                    <label class="slider-v3" for="serverVersion"></label>
-                </div>
-           
-           
-        
-            <textarea name="time" id="time" cols="30" rows="10"></textarea>
-            <p>Catégories: <span>(3 maximums)</span></p>
-            <input type="checkbox" name="associations"> associations
-            <input type="checkbox" name="animaux">animaux
-            <input type="checkbox" name="sport">sport
-            <input type="checkbox" name="médical">médical
-            <input type="checkbox" name="voyage">voyage
-            <input type="checkbox" name="écologie">écologie
-            <input type="checkbox" name="jeux">jeux
-            <input type="checkbox" name="musique">musique
-            <input type="checkbox" name="techno">techno
-            <input type="checkbox" name="photographie">photographie
-            <input type="checkbox" name="gastronomie">gastronomie
-            <input type="checkbox" name="cinéma">cinéma
-            <input type="checkbox" name="artisanat">artisanat
-            <input type="checkbox" name="spectacle">spectacle
-            <input type="checkbox" name="scolarité">scolarité
-            <p>Besoin du projet: <span>(2000 caractères maximum)</span></p>
-            <textarea name="objectif" id="objectif" cols="30" rows="10" placeholder="Expliquez en détail les besoins, les compétences nécessaire, qui seront par la suite publié à la communauté."></textarea>
-            <input type="submit" value="Submit">
-                    </form>
-                    45c686
-
--->
         <form id="addServerForm">
             <ul id="progressbar">
                 <li class="active">Le projet</li>
@@ -132,7 +66,7 @@
                     <input id="Artisanat" value="Artisanat" name="projectCat" class="checkbox checkbox--native" type="checkbox"></input>
                     <label for="Artisanat" class="fs-subtitle">Artisanat</label>
                 </p>
-                <p id="inputBlock">
+                <p id="inputBlock" class="inputSeparation">
                     <input id="Artistique" value="Artistique" name="projectCat" class="checkbox checkbox--native" type="checkbox"></input>
                     <label for="Artistique" class="fs-subtitle">Artistique</label>
                 </p>

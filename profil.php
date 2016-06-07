@@ -1,22 +1,20 @@
 <?php include('headerprofil.php'); ?>
 
     <div class="profil">
-        <div class="profil-box">
-            <div class="header-profil-box">
-                <img src="#" alt="image de profil" class="img-profil">
-                <div class="info-profil">
-                    <p class="name-profil">Jérémy Guerrier</p>
-                    <p class="credit-profil">- 30 Jump' <a href="projets.php" class="spend-credit-profil">dépense tes Jump' en soutenant des projets !</a></p>
-                </div>
-
-
-                <div class="menu-profil">
-                    <ul>
-                        <li>Projets soutenus</li>
-                        <li>Exclusivités</li>
-                        <li>Mes compétences</li>
-                        <li>Mes infos</li>
-                    </ul>
+        <div class="profilview">
+            <div class="header">
+                <img src="images/profil/profil.jpg" alt="Illustration profil">
+                <p class="titre-profil">Jérémy Guerrier</p>
+                <a href="projets.php"><p class="credit-profil">46 Jump' à dépenser (1 Jump' = 1€)</p></a>
+                <button onclick="document.location.href='/PFA/profil.php'" class="button button-secondary">Exclusivités</button>
+                <button onclick="document.location.href='/PFA/profilSuivis.php'" class="button button-thirdary">Projet suivis</button>
+                <button onclick="document.location.href='/PFA/profilParametres.php'" class="button button-primary">Informations et paramètres</button>
+            </div>
+            <div class="exclusivite">
+                <div class="exclusivite-single">
+                    <p class="title-exclusivite">L'exclu vidéo de la semaine:</p>
+                    <p class="title-advice">Gagner 30 Jump' en visionnant cette vidéo</p>
+                    <iframe class="excluvideo" width="560" height="315" src="https://www.youtube.com/embed/nTxH6G1tgxQ" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
         </div>

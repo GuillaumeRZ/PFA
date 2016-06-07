@@ -28,7 +28,7 @@
 -->
     <div class="main-navbar">
         <div class="container-navbar">
-            <img class="logo-navbar" src="#" alt="Logo Jump'in" />
+            <img class="logo-navbar" src="images/logo.png" alt="Logo Jump'in" />
             <div class="left-navbar">
                 <a href="index.php" class="principal-menu"><i class="fa fa-home fa-fw" aria-hidden="true"></i>Accueil</a>
                 <a href="projets.php" class="principal-menu"><i class="fa fa-bullhorn" aria-hidden="true"></i>Les projets</a>
